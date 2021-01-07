@@ -1,0 +1,8 @@
+#4.10.1
+def list_str(spam):
+    spam[-1] = 'and ' +spam[-1]
+    return spam
+
+spam = ['apples', 'bananas','tofu','cats']
+
+print(list_str(spam))
